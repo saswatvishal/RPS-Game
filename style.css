@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(255, 208, 0, 0.747);
+}
+
+.choices {
+    background: rgb(255, 219, 233);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+img {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    margin-top: 160px;
+    margin-left: 98vh;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.results {
+    cursor: alias;
+}
+
+@media screen and (max-width: 700px) {
+    button {
+        margin-top: 150px;
+        margin-left: 45vh;
+    }
+}
